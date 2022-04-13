@@ -1,0 +1,483 @@
+{
+ "etype": "ModuleNotFoundError",
+ "evalue": "ModuleNotFoundError(\"No module named 'library_management'\")",
+ "exception": {
+  "args": [
+   40,
+   34,
+   78,
+   111,
+   32,
+   109,
+   111,
+   100,
+   117,
+   108,
+   101,
+   32,
+   110,
+   97,
+   109,
+   101,
+   100,
+   32,
+   39,
+   108,
+   105,
+   98,
+   114,
+   97,
+   114,
+   121,
+   95,
+   109,
+   97,
+   110,
+   97,
+   103,
+   101,
+   109,
+   101,
+   110,
+   116,
+   39,
+   34,
+   44,
+   41
+  ],
+  "msg": [
+   34,
+   78,
+   111,
+   32,
+   109,
+   111,
+   100,
+   117,
+   108,
+   101,
+   32,
+   110,
+   97,
+   109,
+   101,
+   100,
+   32,
+   39,
+   108,
+   105,
+   98,
+   114,
+   97,
+   114,
+   121,
+   95,
+   109,
+   97,
+   110,
+   97,
+   103,
+   101,
+   109,
+   101,
+   110,
+   116,
+   39,
+   34
+  ],
+  "name": [
+   39,
+   108,
+   105,
+   98,
+   114,
+   97,
+   114,
+   121,
+   95,
+   109,
+   97,
+   110,
+   97,
+   103,
+   101,
+   109,
+   101,
+   110,
+   116,
+   39
+  ],
+  "path": [
+   78,
+   111,
+   110,
+   101
+  ],
+  "with_traceback": [
+   60,
+   98,
+   117,
+   105,
+   108,
+   116,
+   45,
+   105,
+   110,
+   32,
+   109,
+   101,
+   116,
+   104,
+   111,
+   100,
+   32,
+   119,
+   105,
+   116,
+   104,
+   95,
+   116,
+   114,
+   97,
+   99,
+   101,
+   98,
+   97,
+   99,
+   107,
+   32,
+   111,
+   102,
+   32,
+   77,
+   111,
+   100,
+   117,
+   108,
+   101,
+   78,
+   111,
+   116,
+   70,
+   111,
+   117,
+   110,
+   100,
+   69,
+   114,
+   114,
+   111,
+   114,
+   32,
+   111,
+   98,
+   106,
+   101,
+   99,
+   116,
+   62
+  ]
+ },
+ "frames": [
+  {
+   "call": "(request=<Request 'http://localhost:8000/' [GET]>)",
+   "dump": {
+    "frappe. website": "<module 'frappe.website' from '/workspace/develo...pe-bench/apps/frappe/frappe/website/__init__.py'>",
+    "frappe.website. render": "<module 'frappe.website.render' from '/workspace...appe-bench/apps/frappe/frappe/website/render.py'>",
+    "frappe.website.render. render": "<function render>",
+    "global frappe": "<module 'frappe' from '/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "response": "None"
+   },
+   "file": "/workspace/development/frappe-bench/apps/frappe/frappe/app.py",
+   "func": "application",
+   "lines": {
+    "74": "",
+    "75": "\t\telif request.method in ('GET', 'HEAD', 'POST'):",
+    "76": "\t\t\tresponse = frappe.website.render.render()",
+    "77": "",
+    "78": "\t\telse:"
+   },
+   "lnum": 76
+  },
+  {
+   "call": "(path='error', http_status_code=None)",
+   "dump": {
+    "data": "None",
+    "global render_page": "<function render_page>",
+    "path": "'error'"
+   },
+   "file": "/workspace/development/frappe-bench/apps/frappe/frappe/website/render.py",
+   "func": "render",
+   "lines": {
+    "78": "\t\t\texcept Exception:",
+    "79": "\t\t\t\tpath = \"error\"",
+    "80": "\t\t\t\tdata = render_page(path)",
+    "81": "\t\t\t\thttp_status_code = 500",
+    "82": ""
+   },
+   "lnum": 80
+  },
+  {
+   "call": "(path='error')",
+   "dump": {
+    "global build": "<function build>",
+    "path": "'error'"
+   },
+   "file": "/workspace/development/frappe-bench/apps/frappe/frappe/website/render.py",
+   "func": "render_page",
+   "lines": {
+    "191": "\t\treturn out",
+    "192": "",
+    "193": "\treturn build(path)",
+    "194": "",
+    "195": "def build(path):"
+   },
+   "lnum": 193
+  },
+  {
+   "call": "(path='error')",
+   "dump": {
+    "global build_page": "<function build_page>",
+    "path": "'error'"
+   },
+   "file": "/workspace/development/frappe-bench/apps/frappe/frappe/website/render.py",
+   "func": "build",
+   "lines": {
+    "198": "",
+    "199": "\ttry:",
+    "200": "\t\treturn build_page(path)",
+    "201": "\texcept frappe.DoesNotExistError:",
+    "202": "\t\thooks = frappe.get_hooks()"
+   },
+   "lnum": 200
+  },
+  {
+   "call": "(path='error')",
+   "dump": {
+    "context": "undefined",
+    "global get_context": "<function get_context>",
+    "path": "'error'"
+   },
+   "file": "/workspace/development/frappe-bench/apps/frappe/frappe/website/render.py",
+   "func": "build_page",
+   "lines": {
+    "213": "\t\tfrappe.local.path = path",
+    "214": "",
+    "215": "\tcontext = get_context(path)",
+    "216": "",
+    "217": "\tif context.source:"
+   },
+   "lnum": 215
+  },
+  {
+   "call": "(path='error', args=None)",
+   "dump": {
+    "context": "{'basename': 'error', 'basepath': '/workspace/de...'path': '', 'canonical': 'http://localhost:8000'}",
+    "global build_context": "<function build_context>"
+   },
+   "file": "/workspace/development/frappe-bench/apps/frappe/frappe/website/context.py",
+   "func": "get_context",
+   "lines": {
+    "26": "\tcontext.canonical = frappe.utils.get_url(frappe.utils.escape_html(context.path))",
+    "27": "\tcontext.route = context.path",
+    "28": "\tcontext = build_context(context)",
+    "29": "",
+    "30": "\t# set using frappe.respond_as_web_page"
+   },
+   "lnum": 28
+  },
+  {
+   "call": "(context={'basename': 'error', 'basepath': '/workspace/de...000', 'url_prefix': '', 'docs_base_url': '/docs'})",
+   "dump": {
+    "context": "{'basename': 'error', 'basepath': '/workspace/de...000', 'url_prefix': '', 'docs_base_url': '/docs'}",
+    "context. update": "<bound method _dict.update of {'basename': 'erro...00', 'url_prefix': '', 'docs_base_url': '/docs'}>",
+    "global get_website_settings": "<function get_website_settings>"
+   },
+   "file": "/workspace/development/frappe-bench/apps/frappe/frappe/website/context.py",
+   "func": "build_context",
+   "lines": {
+    "73": "\tcontext.docs_base_url = '/docs'",
+    "74": "",
+    "75": "\tcontext.update(get_website_settings())",
+    "76": "\tcontext.update(frappe.local.conf.get(\"website_context\") or {})",
+    "77": ""
+   },
+   "lnum": 75
+  },
+  {
+   "call": "()",
+   "dump": {
+    "global _": "<function _>"
+   },
+   "file": "/workspace/development/frappe-bench/apps/frappe/frappe/website/doctype/website_settings/website_settings.py",
+   "func": "get_website_settings",
+   "lines": {
+    "74": "\t\t'footer_items': get_items('footer_items'),",
+    "75": "\t\t\"post_login\": [",
+    "76": "\t\t\t{\"label\": _(\"My Account\"), \"url\": \"/me\"},",
+    "77": "\t\t\t{\"label\": _(\"Logout\"), \"url\": \"/?cmd=web_logout\"}",
+    "78": "\t\t]"
+   },
+   "lnum": 76
+  },
+  {
+   "call": "(msg='My Account', lang='en-US')",
+   "dump": {
+    ").get": "undefined",
+    "get_full_dict": "<function get_full_dict>",
+    "lang": "'en-US'",
+    "msg": "'My Account'",
+    "non_translated_msg": "'My Account'"
+   },
+   "file": "/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "_",
+   "lines": {
+    "69": "",
+    "70": "\t# return lang_full_dict according to lang passed parameter",
+    "71": "\treturn get_full_dict(lang).get(msg) or non_translated_msg",
+    "72": "",
+    "73": "def as_unicode(text, encoding='utf-8'):"
+   },
+   "lnum": 71
+  },
+  {
+   "call": "(lang='en-US')",
+   "dump": {
+    "frappe. local": "<werkzeug.local.Local object>",
+    "frappe.local. lang_full_dict": "None",
+    "global frappe": "<module 'frappe' from '/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "global load_lang": "<function load_lang>",
+    "lang": "'en-US'"
+   },
+   "file": "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py",
+   "func": "get_full_dict",
+   "lines": {
+    "234": "\t\treturn frappe.local.lang_full_dict",
+    "235": "",
+    "236": "\tfrappe.local.lang_full_dict = load_lang(lang)",
+    "237": "",
+    "238": "\ttry:"
+   },
+   "lnum": 236
+  },
+  {
+   "call": "(lang='en-US', apps=None)",
+   "dump": {
+    "app": "'library_management'",
+    "frappe. get_pymodule_path": "<function get_pymodule_path>",
+    "global frappe": "<module 'frappe' from '/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "global os": "<module 'os' from '/home/frappe/.pyenv/versions/3.7.12/lib/python3.7/os.py'>",
+    "lang": "'en-US'",
+    "os. path": "<module 'posixpath' from '/home/frappe/.pyenv/versions/3.7.12/lib/python3.7/posixpath.py'>",
+    "os.path. join": "<function join>",
+    "path": "'/workspace/development/frappe-bench/apps/frappe/frappe/translations/en-US.csv'"
+   },
+   "file": "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py",
+   "func": "load_lang",
+   "lines": {
+    "257": "\t\tout = {}",
+    "258": "\t\tfor app in (apps or frappe.get_all_apps(True)):",
+    "259": "\t\t\tpath = os.path.join(frappe.get_pymodule_path(app), \"translations\", lang + \".csv\")",
+    "260": "\t\t\tout.update(get_translation_dict_from_file(path, lang, app) or {})",
+    "261": ""
+   },
+   "lnum": 259
+  },
+  {
+   "call": "(modulename='library_management', *joins=[])",
+   "dump": {
+    ").__file__": "undefined",
+    "global get_module": "<function get_module>",
+    "global os": "<module 'os' from '/home/frappe/.pyenv/versions/3.7.12/lib/python3.7/os.py'>",
+    "global scrub": "<function scrub>",
+    "joins": "[]",
+    "modulename": "'library_management'",
+    "os. path": "<module 'posixpath' from '/home/frappe/.pyenv/versions/3.7.12/lib/python3.7/posixpath.py'>",
+    "os.path. dirname": "<function dirname>",
+    "os.path. join": "<function join>"
+   },
+   "file": "/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "get_pymodule_path",
+   "lines": {
+    "906": "\tif not \"public\" in joins:",
+    "907": "\t\tjoins = [scrub(part) for part in joins]",
+    "908": "\treturn os.path.join(os.path.dirname(get_module(scrub(modulename)).__file__), *joins)",
+    "909": "",
+    "910": "def get_module_list(app_name):"
+   },
+   "lnum": 908
+  },
+  {
+   "call": "(modulename='library_management')",
+   "dump": {
+    "global importlib": "<module 'importlib' from '/home/frappe/.pyenv/versions/3.7.12/lib/python3.7/importlib/__init__.py'>",
+    "importlib. import_module": "<function import_module>",
+    "modulename": "'library_management'"
+   },
+   "file": "/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "get_module",
+   "lines": {
+    "868": "def get_module(modulename):",
+    "869": "\t\"\"\"Returns a module object for given Python module name using `importlib.import_module`.\"\"\"",
+    "870": "\treturn importlib.import_module(modulename)",
+    "871": "",
+    "872": "def scrub(txt):"
+   },
+   "lnum": 870
+  },
+  {
+   "call": "(name='library_management', package=None)",
+   "dump": {
+    "_bootstrap. _gcd_import": "<function _gcd_import>",
+    "global _bootstrap": "<module 'importlib._bootstrap' (frozen)>",
+    "level": "0",
+    "name": "'library_management'",
+    "package": "None"
+   },
+   "file": "/home/frappe/.pyenv/versions/3.7.12/lib/python3.7/importlib/__init__.py",
+   "func": "import_module",
+   "lines": {
+    "125": "                break",
+    "126": "            level += 1",
+    "127": "    return _bootstrap._gcd_import(name[level:], package, level)",
+    "128": "",
+    "129": ""
+   },
+   "lnum": 127
+  },
+  {
+   "call": "(name='library_management', package=None, level=0)",
+   "dump": {},
+   "file": "/workspace/development/frappe-bench/sites/<frozen importlib._bootstrap>",
+   "func": "_gcd_import",
+   "lines": {},
+   "lnum": 1006
+  },
+  {
+   "call": "(name='library_management', import_=<function _gcd_import>)",
+   "dump": {},
+   "file": "/workspace/development/frappe-bench/sites/<frozen importlib._bootstrap>",
+   "func": "_find_and_load",
+   "lines": {},
+   "lnum": 983
+  },
+  {
+   "call": "(name='library_management', import_=<function _gcd_import>)",
+   "dump": {},
+   "file": "/workspace/development/frappe-bench/sites/<frozen importlib._bootstrap>",
+   "func": "_find_and_load_unlocked",
+   "lines": {},
+   "lnum": 965
+  }
+ ],
+ "locals": {
+  "import_": "<function _gcd_import>",
+  "name": "library_management",
+  "parent": "",
+  "path": "None",
+  "spec": "None"
+ },
+ "pyver": "Python 3.7.12: /workspace/development/frappe-bench/env/bin/python (prefix: /workspace/development/frappe-bench/env)",
+ "timestamp": "2022-04-11 09:55:52.720659",
+ "traceback": "Traceback (most recent call last):\n  File \"/workspace/development/frappe-bench/apps/frappe/frappe/website/render.py\", line 50, in render\n    data = render_page_by_language(path)\n  File \"/workspace/development/frappe-bench/apps/frappe/frappe/website/render.py\", line 177, in render_page_by_language\n    return render_page(path)\n  File \"/workspace/development/frappe-bench/apps/frappe/frappe/website/render.py\", line 193, in render_page\n    return build(path)\n  File \"/workspace/development/frappe-bench/apps/frappe/frappe/website/render.py\", line 200, in build\n    return build_page(path)\n  File \"/workspace/development/frappe-bench/apps/frappe/frappe/website/render.py\", line 215, in build_page\n    context = get_context(path)\n  File \"/workspace/development/frappe-bench/apps/frappe/frappe/website/context.py\", line 28, in get_context\n    context = build_context(context)\n  File \"/workspace/development/frappe-bench/apps/frappe/frappe/website/context.py\", line 75, in build_context\n    context.update(get_website_settings())\n  File \"/workspace/development/frappe-bench/apps/frappe/frappe/website/doctype/website_settings/website_settings.py\", line 76, in get_website_settings\n    {\"label\": _(\"My Account\"), \"url\": \"/me\"},\n  File \"/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py\", line 71, in _\n    return get_full_dict(lang).get(msg) or non_translated_msg\n  File \"/workspace/development/frappe-bench/apps/frappe/frappe/translate.py\", line 236, in get_full_dict\n    frappe.local.lang_full_dict = load_lang(lang)\n  File \"/workspace/development/frappe-bench/apps/frappe/frappe/translate.py\", line 259, in load_lang\n    path = os.path.join(frappe.get_pymodule_path(app), \"translations\", lang + \".csv\")\n  File \"/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py\", line 908, in get_pymodule_path\n    return os.path.join(os.path.dirname(get_module(scrub(modulename)).__file__), *joins)\n  File \"/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py\", line 870, in get_module\n    return importlib.import_module(modulename)\n  File \"/home/frappe/.pyenv/versions/3.7.12/lib/python3.7/importlib/__init__.py\", line 127, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n  File \"<frozen importlib._bootstrap>\", line 1006, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 983, in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 965, in _find_and_load_unlocked\nModuleNotFoundError: No module named 'library_management'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/workspace/development/frappe-bench/apps/frappe/frappe/app.py\", line 76, in application\n    response = frappe.website.render.render()\n  File \"/workspace/development/frappe-bench/apps/frappe/frappe/website/render.py\", line 80, in render\n    data = render_page(path)\n  File \"/workspace/development/frappe-bench/apps/frappe/frappe/website/render.py\", line 193, in render_page\n    return build(path)\n  File \"/workspace/development/frappe-bench/apps/frappe/frappe/website/render.py\", line 200, in build\n    return build_page(path)\n  File \"/workspace/development/frappe-bench/apps/frappe/frappe/website/render.py\", line 215, in build_page\n    context = get_context(path)\n  File \"/workspace/development/frappe-bench/apps/frappe/frappe/website/context.py\", line 28, in get_context\n    context = build_context(context)\n  File \"/workspace/development/frappe-bench/apps/frappe/frappe/website/context.py\", line 75, in build_context\n    context.update(get_website_settings())\n  File \"/workspace/development/frappe-bench/apps/frappe/frappe/website/doctype/website_settings/website_settings.py\", line 76, in get_website_settings\n    {\"label\": _(\"My Account\"), \"url\": \"/me\"},\n  File \"/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py\", line 71, in _\n    return get_full_dict(lang).get(msg) or non_translated_msg\n  File \"/workspace/development/frappe-bench/apps/frappe/frappe/translate.py\", line 236, in get_full_dict\n    frappe.local.lang_full_dict = load_lang(lang)\n  File \"/workspace/development/frappe-bench/apps/frappe/frappe/translate.py\", line 259, in load_lang\n    path = os.path.join(frappe.get_pymodule_path(app), \"translations\", lang + \".csv\")\n  File \"/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py\", line 908, in get_pymodule_path\n    return os.path.join(os.path.dirname(get_module(scrub(modulename)).__file__), *joins)\n  File \"/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py\", line 870, in get_module\n    return importlib.import_module(modulename)\n  File \"/home/frappe/.pyenv/versions/3.7.12/lib/python3.7/importlib/__init__.py\", line 127, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n  File \"<frozen importlib._bootstrap>\", line 1006, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 983, in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 965, in _find_and_load_unlocked\nModuleNotFoundError: No module named 'library_management'\n"
+}

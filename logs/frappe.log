@@ -1,0 +1,1180 @@
+[DEBUG] 2022-04-11 12:53:33,762 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 12:54:33,909 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 12:55:34,036 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 12:56:34,162 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 12:57:34,274 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 12:58:34,484 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 12:59:34,633 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:00:34,798 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:01:34,920 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:02:35,060 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:03:35,185 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:04:35,304 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:05:35,433 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:06:35,615 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:07:35,772 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:08:35,936 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:09:36,102 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:10:36,277 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:11:36,422 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:12:36,544 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:13:36,665 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:14:36,807 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:15:36,926 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:16:37,037 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[ERROR] 2022-04-11 13:19:54,142 | /workspace/development/frappe-bench/apps/frappe/frappe/app.py:
+Site: library.test
+Form Dict: {
+ "cached_timestamp": "2022-04-11 18:16:01.281734",
+ "cmd": "frappe.desk.form.load.getdoctype",
+ "doctype": "Library Membership",
+ "with_parent": "1"
+}
+Request Error
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/modules/utils.py", line 204, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py", line 870, in get_module
+    return importlib.import_module(modulename)
+  File "/home/frappe/.pyenv/versions/3.7.12/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/workspace/development/frappe-bench/apps/library_management/library_management/library_management/doctype/library_membership/library_membership.py", line 3, in <module>
+    from frappe.model.docfield import DocStatus
+ImportError: cannot import name 'DocStatus' from 'frappe.model.docfield' (/workspace/development/frappe-bench/apps/frappe/frappe/model/docfield.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/app.py", line 67, in application
+    response = frappe.api.handle()
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py", line 1105, in call
+    return fn(*args, **newargs)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 70, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 80, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 37, in get_meta
+    meta = FormMeta(doctype)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 47, in __init__
+    self.load_assets()
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 67, in load_assets
+    self.load_templates()
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 189, in load_templates
+    module = load_doctype_module(self.name)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/modules/utils.py", line 206, in load_doctype_module
+    raise ImportError('Module import failed for {0} ({1})'.format(doctype, module_name + ' Error: ' + str(e)))
+ImportError: Module import failed for Library Membership (library_management.library_management.doctype.library_membership.library_membership Error: cannot import name 'DocStatus' from 'frappe.model.docfield' (/workspace/development/frappe-bench/apps/frappe/frappe/model/docfield.py))
+[ERROR] 2022-04-11 13:19:54,923 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2022-04-11 13:19:54.147606-127.0.0.1-d58
+[DEBUG] 2022-04-11 13:20:42,413 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[ERROR] 2022-04-11 13:20:48,675 | /workspace/development/frappe-bench/apps/frappe/frappe/app.py:
+Site: library.test
+Form Dict: {
+ "cached_timestamp": "2022-04-11 18:16:01.281734",
+ "cmd": "frappe.desk.form.load.getdoctype",
+ "doctype": "Library Membership",
+ "with_parent": "1"
+}
+Request Error
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/modules/utils.py", line 204, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py", line 870, in get_module
+    return importlib.import_module(modulename)
+  File "/home/frappe/.pyenv/versions/3.7.12/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/workspace/development/frappe-bench/apps/library_management/library_management/library_management/doctype/library_membership/library_membership.py", line 3, in <module>
+    from frappe.model.docstatus import DocStatus
+ModuleNotFoundError: No module named 'frappe.model.docstatus'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/app.py", line 67, in application
+    response = frappe.api.handle()
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py", line 1105, in call
+    return fn(*args, **newargs)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 70, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 80, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 37, in get_meta
+    meta = FormMeta(doctype)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 47, in __init__
+    self.load_assets()
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 67, in load_assets
+    self.load_templates()
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 189, in load_templates
+    module = load_doctype_module(self.name)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/modules/utils.py", line 206, in load_doctype_module
+    raise ImportError('Module import failed for {0} ({1})'.format(doctype, module_name + ' Error: ' + str(e)))
+ImportError: Module import failed for Library Membership (library_management.library_management.doctype.library_membership.library_membership Error: No module named 'frappe.model.docstatus')
+[ERROR] 2022-04-11 13:20:49,295 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2022-04-11 13:20:48.678704-127.0.0.1-573
+[DEBUG] 2022-04-11 13:21:42,538 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:22:42,688 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[ERROR] 2022-04-11 13:23:38,388 | /workspace/development/frappe-bench/apps/frappe/frappe/app.py:
+Site: library.test
+Form Dict: {
+ "cached_timestamp": "",
+ "cmd": "frappe.desk.form.load.getdoctype",
+ "doctype": "Library Membership",
+ "with_parent": "1"
+}
+Request Error
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/modules/utils.py", line 204, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py", line 870, in get_module
+    return importlib.import_module(modulename)
+  File "/home/frappe/.pyenv/versions/3.7.12/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/workspace/development/frappe-bench/apps/library_management/library_management/library_management/doctype/library_membership/library_membership.py", line 3, in <module>
+    from frappe.model.document import DocStatus
+ImportError: cannot import name 'DocStatus' from 'frappe.model.document' (/workspace/development/frappe-bench/apps/frappe/frappe/model/document.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/app.py", line 67, in application
+    response = frappe.api.handle()
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py", line 1105, in call
+    return fn(*args, **newargs)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 70, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 80, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 37, in get_meta
+    meta = FormMeta(doctype)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 47, in __init__
+    self.load_assets()
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 67, in load_assets
+    self.load_templates()
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 189, in load_templates
+    module = load_doctype_module(self.name)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/modules/utils.py", line 206, in load_doctype_module
+    raise ImportError('Module import failed for {0} ({1})'.format(doctype, module_name + ' Error: ' + str(e)))
+ImportError: Module import failed for Library Membership (library_management.library_management.doctype.library_membership.library_membership Error: cannot import name 'DocStatus' from 'frappe.model.document' (/workspace/development/frappe-bench/apps/frappe/frappe/model/document.py))
+[ERROR] 2022-04-11 13:23:39,550 | /workspace/development/frappe-bench/apps/frappe/frappe/app.py:
+Site: library.test
+Form Dict: {
+ "cached_timestamp": "",
+ "cmd": "frappe.desk.form.load.getdoctype",
+ "doctype": "Library Membership",
+ "with_parent": "1"
+}
+Request Error
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/modules/utils.py", line 204, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py", line 870, in get_module
+    return importlib.import_module(modulename)
+  File "/home/frappe/.pyenv/versions/3.7.12/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/workspace/development/frappe-bench/apps/library_management/library_management/library_management/doctype/library_membership/library_membership.py", line 3, in <module>
+    from frappe.model.document import DocStatus
+ImportError: cannot import name 'DocStatus' from 'frappe.model.document' (/workspace/development/frappe-bench/apps/frappe/frappe/model/document.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/app.py", line 67, in application
+    response = frappe.api.handle()
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py", line 1105, in call
+    return fn(*args, **newargs)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 70, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 80, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 37, in get_meta
+    meta = FormMeta(doctype)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 47, in __init__
+    self.load_assets()
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 67, in load_assets
+    self.load_templates()
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 189, in load_templates
+    module = load_doctype_module(self.name)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/modules/utils.py", line 206, in load_doctype_module
+    raise ImportError('Module import failed for {0} ({1})'.format(doctype, module_name + ' Error: ' + str(e)))
+ImportError: Module import failed for Library Membership (library_management.library_management.doctype.library_membership.library_membership Error: cannot import name 'DocStatus' from 'frappe.model.document' (/workspace/development/frappe-bench/apps/frappe/frappe/model/document.py))
+[ERROR] 2022-04-11 13:23:39,676 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2022-04-11 13:23:39.562613-127.0.0.1-52c
+[DEBUG] 2022-04-11 13:23:42,839 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[ERROR] 2022-04-11 13:23:55,129 | /workspace/development/frappe-bench/apps/frappe/frappe/app.py:
+Site: library.test
+Form Dict: {
+ "cached_timestamp": "",
+ "cmd": "frappe.desk.form.load.getdoctype",
+ "doctype": "Library Membership",
+ "with_parent": "1"
+}
+Request Error
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/modules/utils.py", line 204, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py", line 870, in get_module
+    return importlib.import_module(modulename)
+  File "/home/frappe/.pyenv/versions/3.7.12/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/workspace/development/frappe-bench/apps/library_management/library_management/library_management/doctype/library_membership/library_membership.py", line 3, in <module>
+    from frappe.model.docstatus import DocStatus
+ModuleNotFoundError: No module named 'frappe.model.docstatus'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/app.py", line 67, in application
+    response = frappe.api.handle()
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py", line 1105, in call
+    return fn(*args, **newargs)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 70, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 80, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 37, in get_meta
+    meta = FormMeta(doctype)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 47, in __init__
+    self.load_assets()
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 67, in load_assets
+    self.load_templates()
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 189, in load_templates
+    module = load_doctype_module(self.name)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/modules/utils.py", line 206, in load_doctype_module
+    raise ImportError('Module import failed for {0} ({1})'.format(doctype, module_name + ' Error: ' + str(e)))
+ImportError: Module import failed for Library Membership (library_management.library_management.doctype.library_membership.library_membership Error: No module named 'frappe.model.docstatus')
+[ERROR] 2022-04-11 13:23:55,770 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2022-04-11 13:23:55.136164-127.0.0.1-2d9
+[DEBUG] 2022-04-11 13:24:42,962 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:25:43,098 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:26:43,245 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:27:43,364 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:28:43,485 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:29:43,615 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[ERROR] 2022-04-11 13:30:11,546 | /workspace/development/frappe-bench/apps/frappe/frappe/app.py:
+Site: library.test
+Form Dict: {
+ "cached_timestamp": "",
+ "cmd": "frappe.desk.form.load.getdoctype",
+ "doctype": "Library Membership",
+ "with_parent": "1"
+}
+Request Error
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/modules/utils.py", line 204, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py", line 870, in get_module
+    return importlib.import_module(modulename)
+  File "/home/frappe/.pyenv/versions/3.7.12/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/workspace/development/frappe-bench/apps/library_management/library_management/library_management/doctype/library_membership/library_membership.py", line 3, in <module>
+    from frappe import DocStatus
+ImportError: cannot import name 'DocStatus' from 'frappe' (/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/app.py", line 67, in application
+    response = frappe.api.handle()
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/api.py", line 59, in handle
+    return frappe.handler.handle()
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/handler.py", line 24, in handle
+    data = execute_cmd(cmd)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/handler.py", line 64, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py", line 1105, in call
+    return fn(*args, **newargs)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 70, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/load.py", line 80, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 37, in get_meta
+    meta = FormMeta(doctype)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 47, in __init__
+    self.load_assets()
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 67, in load_assets
+    self.load_templates()
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/desk/form/meta.py", line 189, in load_templates
+    module = load_doctype_module(self.name)
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/modules/utils.py", line 206, in load_doctype_module
+    raise ImportError('Module import failed for {0} ({1})'.format(doctype, module_name + ' Error: ' + str(e)))
+ImportError: Module import failed for Library Membership (library_management.library_management.doctype.library_membership.library_membership Error: cannot import name 'DocStatus' from 'frappe' (/workspace/development/frappe-bench/apps/frappe/frappe/__init__.py))
+[ERROR] 2022-04-11 13:30:12,156 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/error.py:
+New Exception collected with id: 2022-04-11 13:30:11.548373-127.0.0.1-1c0
+[DEBUG] 2022-04-11 13:30:43,784 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:31:43,918 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:32:44,046 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:33:44,169 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:34:44,357 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:35:44,475 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:36:44,599 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:37:44,711 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:38:44,864 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:39:44,983 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:40:45,101 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:41:45,222 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:42:45,371 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:43:45,489 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:44:45,615 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:45:45,737 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:46:45,880 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:47:46,002 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:48:46,122 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:49:46,242 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:50:46,398 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:51:46,528 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:52:46,667 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:53:46,792 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:54:46,953 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:55:47,067 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:56:47,183 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:57:47,313 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:58:47,460 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 13:59:47,589 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 14:00:47,708 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 14:01:47,829 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 14:02:47,975 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 14:03:48,095 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 14:04:48,216 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 14:05:48,329 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 14:06:48,493 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 14:07:48,627 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 14:08:48,746 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 14:09:48,870 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 14:10:49,022 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 14:11:49,138 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 14:12:49,256 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 14:13:49,408 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 14:14:49,543 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 14:15:49,657 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 14:16:49,777 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 14:17:49,903 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 14:18:50,063 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 14:19:50,178 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 14:20:50,292 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 14:21:50,391 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 14:22:50,536 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 14:23:50,653 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 14:24:50,761 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 14:25:50,869 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 14:26:51,002 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 14:27:51,116 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 14:28:51,231 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 15:50:59,655 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 15:51:59,796 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 15:52:59,918 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 15:54:00,056 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 15:55:00,177 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 15:56:00,296 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 15:57:00,423 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 15:58:00,572 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 15:59:00,692 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:00:00,799 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:01:00,917 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:02:01,057 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:03:01,180 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:04:01,306 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:05:01,461 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:06:01,602 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:07:01,719 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:08:01,835 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:09:01,951 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:10:02,090 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:11:02,208 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:12:02,326 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:13:02,458 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:14:02,597 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:15:02,706 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:16:02,828 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:17:02,948 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:18:03,087 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:19:03,203 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:20:03,317 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:21:03,434 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:22:03,585 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:23:03,726 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:24:03,844 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:25:03,974 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:26:04,122 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:27:04,246 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:28:04,376 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:29:04,506 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:30:04,660 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:31:04,777 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:32:04,885 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:33:04,998 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:34:05,144 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:35:05,270 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:36:05,390 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:37:05,508 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:38:05,649 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:39:05,769 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:40:05,884 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:41:06,007 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:42:06,149 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:43:06,294 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:44:06,411 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:45:06,530 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:46:06,720 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:47:06,879 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:48:07,000 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-11 16:49:07,120 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 03:40:42,484 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 03:41:42,632 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 03:42:42,771 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 03:43:42,893 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 03:44:43,058 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 03:45:43,185 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 03:46:43,335 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 03:47:43,464 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 03:48:43,581 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:00:12,994 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:01:13,124 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:02:13,266 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:03:13,387 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:04:13,507 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:05:13,626 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:06:13,769 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:07:13,902 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:08:14,019 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:09:14,140 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:10:14,280 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:11:14,408 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:12:14,533 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:13:14,657 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:14:14,833 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:15:14,962 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:16:15,097 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:17:15,222 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:18:15,378 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:19:15,498 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:20:15,638 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:21:15,764 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:22:15,909 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:23:16,030 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:24:16,150 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:25:16,271 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:26:16,421 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:27:16,541 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:28:16,663 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:29:16,786 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:30:16,956 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:31:17,080 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:32:17,219 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:33:17,351 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:34:17,533 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:35:17,655 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:36:17,779 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:37:17,898 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:38:18,048 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:39:18,171 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:40:18,292 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:41:18,415 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:42:18,592 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:43:18,735 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:44:18,851 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:45:18,977 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:46:19,118 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:47:19,241 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:48:19,370 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:49:19,493 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:50:19,647 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:51:19,765 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:52:19,893 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:53:20,007 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:54:20,152 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:55:20,266 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:56:20,393 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:57:20,513 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:58:20,662 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 09:59:20,794 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:00:20,925 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:01:21,050 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:02:21,196 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:03:21,316 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:04:21,433 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:05:21,546 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:06:21,703 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:07:21,825 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:08:21,959 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:09:22,086 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:10:22,234 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:11:22,360 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:12:22,479 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:13:22,607 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:14:22,759 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:15:22,887 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:16:23,015 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:17:23,145 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:18:23,300 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:19:23,434 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:20:23,567 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:21:23,687 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:22:23,838 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:23:23,971 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:24:24,100 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:25:24,226 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:26:24,371 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:27:24,498 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:28:24,623 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:29:24,757 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:30:24,936 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:31:25,064 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:32:25,208 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:33:25,332 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:34:25,479 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:35:25,597 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:36:25,715 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:37:25,836 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:38:25,980 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:39:26,121 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:40:26,248 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:41:26,372 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:42:26,513 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:43:26,641 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:44:26,783 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:45:26,905 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:46:27,053 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:47:27,177 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:48:27,294 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:49:27,418 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:50:27,564 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:51:27,688 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:52:27,817 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:53:27,934 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:54:28,082 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:55:28,203 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:56:28,328 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:57:28,460 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:58:28,610 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 10:59:28,737 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
+[DEBUG] 2022-04-12 11:00:28,860 | /workspace/development/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: library.test
+Queued events for site library.test
